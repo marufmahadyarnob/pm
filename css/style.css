@@ -1,0 +1,48 @@
+/* Body & Typography */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0f1220;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Template Grid */
+.template-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Template Card */
+.template-card {
+  background: #181b3a;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.template-card img {
+  width: 100%;
+  display: block;
+}
+
+.template-card span {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
